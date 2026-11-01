@@ -657,3 +657,163 @@ GLOSSARY = [
     (("SERA Note / Book / Portfolio", "SERA Note / Book / Portfolio"), ("기록의 기본 단위 / 기록을 서사로 엮은 결과물 / 기록과 실천을 축적한 활용 자료", "The basic unit of recording / records woven into a narrative / an accumulated body of records and practice for use."), ("제30조", "Art. 30")),
     (("종단 기록", "Longitudinal record"), ("여러 시점의 활동·성찰 기록을 시간 순으로 연결한 자료", "Activity and reflection records from many points in time, linked in chronological order."), ("제29조", "Art. 29")),
 ]
+
+
+# ================================================================ v2 additions
+# From the SDX SERA brochure (external) and SERA 0.0.1 (internal; only the
+# participant-facing principles are used here).
+
+SDX_EN = "Sustainable Development eXperience Foundation"
+
+POSITION = {
+    "kicker": ("Self-directed Life Companion", "Self-directed Life Companion"),
+    "title": ("자기주도적 삶을 안내하는 성장 동반자", "A growth companion for a self-directed life"),
+    "tagline": ("나를 발견하고, 함께 성장하며, 나의 삶을 이루다.", "Discover yourself. Grow together. Shape your own life."),
+    "lede": ("SERA는 자기주도적 삶을 발견하고 설계하며 실현하도록 돕는 성장 동반자입니다. 자신의 삶을 스스로 설계하고, 타인과 공감하며, 세상의 살림에 이바지하는 살림가(Salimist)를 키웁니다.",
+             "SERA is a growth companion that helps people discover, design and live a self-directed life. It nurtures Salimists: people who shape their own lives, empathize with others and contribute to the flourishing of the world around them."),
+}
+
+FOUR_SHORT = {  # brochure verbs
+    "S": (("나를 발견하다", "Discover myself"), ("자신의 이야기를 발견하고 자신을 정의한다.", "Find your own story and define yourself.")),
+    "E": (("세상을 이해하다", "Understand the world"), ("자신과 타인, 주변 세계를 이해하고 공감한다.", "Understand and empathize with yourself, others and the world around you.")),
+    "R": (("어려움을 넘어선다", "Move through difficulty"), ("어려움을 극복하고 회복하며 새로운 가능성을 찾는다.", "Work through hardship, recover and find new possibilities.")),
+    "A": (("나의 삶을 이루다", "Shape my life"), ("작은 성취를 축적하여 자신의 삶을 이루어 간다.", "Build your life through an accumulation of small achievements.")),
+}
+
+WHY = (("AI와 디지털 기술의 빠른 발전, 사회와 경제의 불확실성 속에서 사람들에게 필요한 역량은 자신의 삶을 이해하고, 스스로 방향을 설정하며, 주변과 관계를 맺고, 작은 성취를 지속적으로 만들어 가는 능력입니다. SERA는 이러한 문제의식에서 출발합니다.",
+        "Amid fast-moving AI and digital technology and an uncertain economy and society, what people need most is the ability to understand their own lives, set their own direction, build relationships with those around them and keep creating small achievements. SERA starts from this concern."),
+       ("무언가를 겪었다고 해서 그 일이 저절로 다음 선택에 도움이 되지는 않습니다. 그때 무엇을 느꼈는지, 무엇이 중요했는지, 다음에는 무엇을 유지하고 바꾸고 싶은지 돌아보고 행동으로 옮길 때 비로소 경험이 다음 선택으로 이어집니다. SERA는 바로 이 연결을 돕습니다.",
+        "Going through something does not automatically help with the next choice. An experience carries forward when we look back at what we felt, what mattered and what we want to keep or change next time, and then act on it. SERA helps make that connection."))
+
+PHILOSOPHY = [
+    ("모든 사람은 자신만의 고유한 이야기와 달란트를 가지고 있다.", "Every person has their own unique story and talent."),
+    ("자신을 이해하는 질문에서 자기주도적 삶이 시작된다.", "A self-directed life begins with questions that help you understand yourself."),
+    ("공감과 관계는 개인의 성장에 중요한 기반이 된다.", "Empathy and relationships are an essential foundation for personal growth."),
+    ("작은 성취의 축적은 자신감과 회복탄력성을 키운다.", "Small achievements, added up, build confidence and resilience."),
+    ("사람의 성장은 지속적인 기록과 성찰을 통해 더욱 깊어진다.", "Growth deepens through continued recording and reflection."),
+    ("개인의 성장은 이웃과 공동체에 기여할 때 더 큰 의미를 갖는다.", "Personal growth means more when it contributes to neighbors and communities."),
+]
+
+FLOW = [  # experience -> next choice
+    (("경험", "Experience"), ("수업·작업·관계 속에서 한 일과 그 결과", "What you did in a class, a task or a relationship, and how it went")),
+    (("기록", "Record"), ("활동의 흔적과 나의 설명을 남김", "Keep a trace of the activity and your own explanation")),
+    (("이해", "Understand"), ("무엇이 중요했고 왜 그렇게 했는지 돌아봄", "Look back at what mattered and why you did it")),
+    (("다음 선택", "Next choice"), ("무엇을 유지하고 바꿀지 스스로 정함", "Decide for yourself what to keep and what to change")),
+]
+
+ART_EXAMPLE = [
+    (("첫 활동 후", "After the first session"), ("작품 사진과 함께 “색을 섞는 부분이 어려웠다”는 짧은 메모를 남긴다.", "The participant saves a photo of their work with a short note: “Mixing colors was hard.”")),
+    (("기록 확인", "Checking the record"), ("정리된 내용이 자신의 뜻과 맞는지 참여자가 직접 확인한다.", "The participant checks that the summary matches what they meant.")),
+    (("다음 활동 전", "Before the next session"), ("“지난번에 색을 섞는 부분이 어려웠다고 남겼어요. 오늘 다시 해 보고 싶은가요?”", "“Last time you noted that mixing colors was hard. Would you like to try again today?”")),
+    (("참여자의 선택", "The participant chooses"), ("다시 해 보기, 도움 요청하기, 다른 활동 하기 가운데 하나를 고른다.", "Try again, ask for help, or do something else.")),
+    (("다음 활동 후", "After the next session"), ("실제로 무엇을 했는지, 이번 경험을 어떻게 받아들였는지를 남긴다.", "They note what they actually did and how they saw the experience this time.")),
+]
+ART_NOTE = ("“색을 섞는 것이 어려웠다”는 기록은 그대로 남지만, “이 사람은 색을 다루는 데 약하다”는 특성으로 바꾸어 저장하지 않습니다. 생각이 바뀌면 그다음 도움에도 그 변화가 반영됩니다.",
+            "The note “mixing colors was hard” is kept as written, but it is never turned into a trait like “this person is weak with color.” If the participant’s thinking changes, the support that follows changes with it.")
+
+SHIP_STEPS = [
+    (("진단", "Discover"), ("자기이해와 SERA 진단", "Self-understanding and a SERA check-in")),
+    (("계획", "Plan"), ("목표 설정 및 계획 수립", "Set goals and make a plan")),
+    (("탐색", "Explore"), ("활동과 경험, 자기탐색", "Activities, experiences and self-exploration")),
+    (("관계", "Relate"), ("공감과 관계 형성", "Empathy and building relationships")),
+    (("실천", "Practice"), ("작은 성취 실천", "Act on small achievements")),
+    (("기록", "Record"), ("과정과 변화 기록", "Record the process and the change")),
+    (("성찰", "Reflect"), ("결과 성찰, 다음 단계로", "Reflect on results and move to the next step")),
+]
+AUDIENCES = [
+    (("학생", "Students"), ("자기주도 학습", "Self-directed learning")),
+    (("청년", "Young adults"), ("커리어와 삶", "Career and life")),
+    (("성인", "Adults"), ("일과 삶의 균형", "Balancing work and life")),
+    (("전문가", "Professionals"), ("경험과 사회 기여", "Experience and contribution to society")),
+]
+
+PROMISES = [
+    (("답하지 않아도 됩니다", "You never have to answer"), ("참여자는 질문에 답하지 않거나, 다른 방식으로 표현하거나, 활동을 멈출 수 있습니다.", "Participants can skip a question, answer in another way, or stop an activity.")),
+    (("해석은 제안일 뿐입니다", "Interpretations are only suggestions"), ("교사나 AI의 해석은 제안이며, 참여자가 동의하지 않거나 다르게 설명하면 참여자의 설명을 따릅니다.", "Interpretations from teachers or AI are suggestions. If the participant disagrees or explains it differently, their explanation stands.")),
+    (("기록과 공유는 내가 정합니다", "You decide what is recorded and shared"), ("개인적인 감정이나 앞으로의 계획은 원할 때만 기록하고, 누구와 공유할지도 참여자가 정합니다.", "Personal feelings and plans are recorded only if the participant wants, and they decide who can see them.")),
+    (("사람을 단정하지 않습니다", "No fixed labels"), ("몇 번의 경험만으로 그 사람의 성격이나 특성을 단정해 저장하지 않습니다.", "A few experiences are never used to define or store someone’s character or traits.")),
+    (("응답이 없어도 괜찮습니다", "Silence is not a judgment"), ("응답이 없다고 해서 활동을 하지 않았다거나 의욕이 없다고 판단하지 않습니다.", "No response is never taken to mean someone did nothing or lacks motivation.")),
+]
+NOT_PROBLEMS = [
+    ("개인적인 경험을 남에게 알리고 싶지 않은 것", "Not wanting to share personal experiences"),
+    ("긴 글이나 유창한 말로 표현하지 않는 것", "Not writing at length or speaking fluently"),
+    ("교사나 AI의 해석에 동의하지 않는 것", "Disagreeing with a teacher’s or AI’s interpretation"),
+    ("전에 세운 계획을 바꾸거나 활동을 그만두는 것", "Changing a plan or stopping an activity"),
+    ("활동을 즐기기만 하고 특별한 의미를 찾지 않는 것", "Simply enjoying an activity without looking for deeper meaning"),
+    ("경제적 안정이나 좋은 성적을 중요한 목표로 삼는 것", "Making financial security or good grades an important goal"),
+]
+WHO_WROTE = [
+    (("참여자의 말", "The participant’s words"), ("“파란색이 마음에 들어서 골랐어요.”", "“I chose blue because I liked it.”")),
+    (("교사의 관찰", "The teacher’s observation"), ("“활동 중 색을 두 번 바꾸는 모습을 보았음.”", "“Saw them change colors twice during the activity.”")),
+    (("AI의 제안", "An AI suggestion"), ("“색을 바꾼 이유를 다음에 물어볼 수 있음.”", "“Could ask next time why they changed colors.”")),
+]
+
+RECORD_FLOW = [
+    {"name": "SERA Note", "tag": ("성장의 과정", "The process of growth"), "items": [
+        ("질문과 활동 기록", "Questions and activities"), ("생각과 감정의 성찰", "Reflections on thoughts and feelings"),
+        ("경험과 도전, 실패와 성취", "Experiences and challenges, setbacks and achievements"), ("개인의 변화 과정 축적", "A growing record of personal change")]},
+    {"name": "SERA Book", "tag": ("나의 스토리", "My story"), "items": [
+        ("누적 기록을 종합", "Brings accumulated records together"), ("자신의 삶과 변화 구성", "Shapes your life and change into a story"),
+        ("달란트와 관심 분야 발견", "Reveals your talents and interests"), ("성취와 향후 삶의 방향 정리", "Sums up achievements and future direction")]},
+    {"name": "SERA Portfolio", "tag": ("활용", "Putting it to use"), "items": [
+        ("기록, 결과물, 실천 사례 축적", "Records, work and examples of practice"), ("경험과 역량을 보여주는 자료", "Shows your experience and capabilities"),
+        ("필요할 때 선택해서 만듦", "Made only if and when you choose")]},
+]
+RECORD_VALUES = [
+    (("자기이해", "Self-understanding"), ("나를 이해하는 자산", "An asset for knowing yourself")),
+    (("진로·진학", "Career and education"), ("진학·취업의 포트폴리오", "A portfolio for school and work")),
+    (("성장 증거", "Evidence of growth"), ("변화와 성취의 기록", "A record of change and achievement")),
+    (("평생 기록", "A lifelong record"), ("시간을 잇는 인생 기록", "A life story that links time")),
+    (("인정가치", "Recognition"), ("나를 설명하는 기반", "A basis for explaining who you are")),
+]
+
+ECOSYSTEM = [
+    {"name": "SERA Principal", "who": ("SDX재단", "SDX Foundation"),
+     "what": ("공통 철학 · 방법론 · 브랜드 · 품질 기준 및 플랫폼", "Shared philosophy, methods, brand, quality standards and platform"),
+     "roles": [("생태계 기반 구축", "Builds the ecosystem"), ("표준과 품질 관리", "Sets standards and quality"), ("인식과 사회적 확산", "Raises awareness and spreads SERA")]},
+    {"name": "SERAship Partner", "who": ("분야별 전문기관", "Field specialists"),
+     "what": ("분야별 핵심 모델 개발 및 보급", "Develop and share core models for each field"),
+     "roles": [("모델 개발 및 사업화", "Model development"), ("콘텐츠·도구 개발", "Content and tools"), ("지도자 양성 및 Member 지원", "Train facilitators, support Members")]},
+    {"name": "SERAship Member", "who": ("현장 운영기관", "Local operators"),
+     "what": ("개발된 모델을 도입하여 현장에서 운영", "Bring models into their own settings and run them"),
+     "roles": [("프로그램 운영", "Run programs"), ("참여자 지원", "Support participants"), ("기록과 피드백", "Records and feedback")]},
+    {"name": "SERA in (人)", "who": ("참여자", "Participants"),
+     "what": ("SERA 프로그램에 참여하여 자신의 삶을 발견하고 성장", "Take part in SERA programs to discover their lives and grow"),
+     "roles": [("프로그램 참여", "Take part"), ("질문과 기록", "Question and record"), ("작은 성취의 경험", "Experience small achievements")]},
+]
+
+MODELS = [
+    ("Art", ("미술·예술교육기관", "Art and arts education"), ("창작 활동을 통한 자기표현과 자기발견", "Self-expression and self-discovery through creative work")),
+    ("Education", ("학교·교육기관", "Schools and education"), ("학습과 성장의 경험을 연결", "Connecting learning and growth")),
+    ("Work", ("기업·조직개발기관", "Companies and organizational development"), ("일과 삶의 성장, 조직의 공감 역량", "Growth in work and life, empathy at work")),
+    ("Community", ("지자체·지역센터", "Local governments and community centers"), ("지역 관계망과 공동체 성장", "Local networks and community growth")),
+    ("Career", ("진로교육·취업지원기관", "Career education and employment support"), ("진로 탐색과 자기 방향 설정", "Exploring careers and finding direction")),
+    ("Eco", ("환경·기후교육기관", "Environmental and climate education"), ("생태 감수성과 기후행동", "Ecological awareness and climate action")),
+    ("Culture", ("문화기관·콘텐츠기업", "Cultural institutions and content companies"), ("문화 경험과 창의적 표현", "Cultural experience and creative expression")),
+]
+ART_CASE = [
+    ("SERA Art 교육과정 개발", "Developing a SERA Art curriculum"),
+    ("52주 예술교육 프로그램 운영", "Running a 52-week arts program"),
+    ("분기별 SERA Note, 연간 SERA Book 제작", "Quarterly SERA Notes and a yearly SERA Book"),
+    ("학생 작품 및 성장 스토리 전시", "Exhibiting student work and growth stories"),
+    ("SERA Art 지도자 양성과 다른 교육기관으로의 모델 보급", "Training SERA Art facilitators and sharing the model with other schools"),
+]
+
+SALIMIST = {
+    "def": ("자신의 삶을 주도적으로 가꾸고, 타인과 공감하며, 자신의 달란트로 세상에 기여하는 사람입니다.",
+            "A person who takes charge of their own life, empathizes with others and contributes to the world with their talent."),
+    "traits": [
+        (("자기이해", "Self-understanding"), ("자신의 이야기를 가진 사람", "Has a story of their own")),
+        (("공감", "Empathy"), ("타인과 세상을 공감하는 사람", "Empathizes with others and the world")),
+        (("회복탄력성", "Resilience"), ("어려움을 넘어 성장하는 사람", "Grows through difficulty")),
+        (("지속성", "Persistence"), ("작은 성취를 꾸준히 만드는 사람", "Keeps making small achievements")),
+        (("공동체", "Community"), ("자신의 달란트로 세상에 기여하는 사람", "Contributes to the world with their talent")),
+    ],
+    "stages": [
+        (("어린이", "Children"), ("세상을 배우는 꼬마 살림가", "Little Salimists learning about the world"), ("호기심과 자기이해", "Curiosity and self-understanding")),
+        (("청소년", "Teens"), ("꿈의 설계자", "Designers of dreams"), ("나를 찾아가는", "Finding themselves")),
+        (("대학생", "University students"), ("도전의 살림가", "Salimists who take on challenges"), ("가능성을 탐색하는", "Exploring possibilities")),
+        (("직장인", "Working adults"), ("일과 삶을 균형 있게 가꾸는 살림가", "Salimists who balance work and life"), ("일과 삶의 균형", "Work-life balance")),
+        (("시니어", "Seniors"), ("경험으로 나누는 지혜의 살림가", "Salimists who share wisdom from experience"), ("경험과 나눔", "Experience and sharing")),
+    ],
+}
