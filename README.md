@@ -7,11 +7,11 @@ A single-file, bilingual (한국어 / English) site for SERA, built from the SER
 ## Files
 
 - `index.html`: the whole site. Upload it anywhere that serves static files (it needs no server code). Fonts load from Google Fonts.
-- `source/`: the content and build script. Text lives in `content.py` as (Korean, English) pairs; run `python3 source/build.py <out_dir>` to regenerate `index.html` (copy the result over the old one).
+- `source/`: the content and build script. Page copy lives in `sections.py` (concise) and `content.py` (source text) as (Korean, English) pairs; run `python3 source/build.py <out_dir>` to regenerate `index.html` (copy the result over the old one).
 
 ## Sections
 
-One page, Korean by default. Section links: `#about`, `#four`, `#way`, `#common`, `#promises`, `#records`, `#together`, `#salimist`, `#declaration`, `#glossary`. Add `?lang=en` to open in English (e.g. `index.html?lang=en#way`). A visitor's language choice is remembered in their browser.
+One page, Korean by default. Section links: `#about`, `#four`, `#way`, `#promises`, `#records`, `#together`, `#salimist`, `#declaration`, `#glossary`. Add `?lang=en` to open in English (e.g. `index.html?lang=en#way`). A visitor's language choice is remembered in their browser.
 
 ## What is deliberately not published
 
